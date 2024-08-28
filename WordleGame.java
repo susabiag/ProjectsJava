@@ -15,7 +15,7 @@ public class WordleGame {
   //Initiate number of guesses in order to make an if statement and start working with it
   private int numberOfGuesses=0;
 
-  /*------TODO - implement according to spec ------*/
+  
   //Constructor for WordleGame
   //Because I can only get one parameter I used getAnswer from another method to introduce this.answer to getAnswer();
   public WordleGame(int puzzleNumberIn){
@@ -141,8 +141,6 @@ public class WordleGame {
 
 
 
-  /*------- TODO - include the remainder of the below code back in once rest of class is implemented.
-            Do not modify this method implementation ------*/
 
   public String toString(){
     /* result will be used to build the full answer String */ 
