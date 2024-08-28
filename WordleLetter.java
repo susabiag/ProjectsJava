@@ -15,10 +15,7 @@ public class WordleLetter {
 		return this.color;
 	}
 
-	/*  -----------------------------------------------------------------------
-		TODO - include the below code back in once rest of class is implemented. 
-		Do not modify this method implementation. 
-		-----------------------------------------------------------------------*/ 
+
 	public String toString() {
 		//---------------------------------------------------------------------
 		if(color == null) {
