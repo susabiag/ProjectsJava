@@ -1,27 +1,8 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-/* Santiago Usabiaga
- [CS1101] Comprehensive Lab 1
- This work is to be done individually. It is not permitted to.
- share, reproduce, or alter any part of this assignment for any
- purpose. Students are not permitted to share code, upload
- this assignment online in any form, or view/receive/
- modifying code written by anyone else. This assignment is part.
- of an academic course at The University of Texas at El Paso and
- a grade will be assigned for the work produced individually by
- the student.
-*/
-/*Check in: 1.For this solution first I ask for user input for asking the file path
-			2.I load the maze without being hardcoded I just put the memory on the row because java allows it and it makes it easier, I also use a try and catch scenario.
-			3.I download the first position in order to know where the initial position is inside the maze and return the maze.
-			4.Made a method in order to print maze, makes it easier later on(in the while loop).
-			5.Make a movePlayer method that returns a boolean, but mainly moves the position inside the maze based on the decision of the movements.
-			6.The main while loop is based on the boolean from the movePlayer method. When the condition is met it stops asking for movements and no user input is asked because we escaped.
-			
-*/
 
-public class CL2_Usabiaga{
+public class Maze{
     
     public static void main(String[] args){
     	//File reading
